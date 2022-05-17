@@ -11,7 +11,7 @@ import (
 func main() {
 	client := &http.Client{}
 
-	req, err := http.NewRequest("GET", "https://2021.ip138.com/", nil)
+	req, err := http.NewRequest("GET", "https://2022.ip138.com/", nil)
 	if err != nil {
 		log.Fatalln(err)
 	}
